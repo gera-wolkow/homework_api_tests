@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "smokeTests">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test name = "get posts">
+        <classes>
+            <class name = "homework_tests.getPosts"/>
+        </classes>
+    </test>
+    <test name = "get comments">
+        <classes>
+            <class name = "homework_tests.getComments"/>
+        </classes>
+    </test>
+    <test name = "post posts to server">
+        <classes>
+            <class name = "homework_tests.postPosts"/>
+        </classes>
+    </test>
+</suite>
