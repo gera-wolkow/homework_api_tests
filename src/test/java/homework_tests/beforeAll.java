@@ -1,11 +1,11 @@
 package homework_tests;
 
-import com.jayway.restassured.response.Response;
+import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 
 /**
  * Created by yuriyryndin on 08.04.2020

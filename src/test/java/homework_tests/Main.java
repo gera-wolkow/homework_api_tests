@@ -1,9 +1,9 @@
 package homework_tests;
 
-import com.jayway.restassured.response.Response;
+import io.restassured.response.Response;
 import org.json.simple.JSONObject;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 
 
 /**

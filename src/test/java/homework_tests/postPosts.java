@@ -1,6 +1,6 @@
 package homework_tests;
 
-import com.jayway.restassured.response.Response;
+import io.restassured.response.Response;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
