@@ -3,17 +3,17 @@
 <suite name = "allTests">
     <test name = "get posts">
         <classes>
-            <class name = "homework_tests.getPosts"/>
+            <class name = "homework_tests.GetPosts"/>
         </classes>
     </test>
     <test name = "get comments">
         <classes>
-            <class name = "homework_tests.getComments"/>
+            <class name = "homework_tests.GetComments"/>
         </classes>
     </test>
     <test name = "post posts to server">
         <classes>
-            <class name = "homework_tests.postPosts"/>
+            <class name = "homework_tests.PostPosts"/>
         </classes>
     </test>
 </suite>

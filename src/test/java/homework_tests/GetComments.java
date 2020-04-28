@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * Created by yuriyryndin on 09.04.2020
  */
-public class getComments extends beforeAll {
+public class GetComments extends BeforeAll {
     @Test(groups = {"smoke"})
     public static void getAllComments() {
         int status_code = getComments().getStatusCode();

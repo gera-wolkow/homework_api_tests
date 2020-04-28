@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * Created by yuriyryndin on 08.04.2020
  */
-public class getPosts extends beforeAll {
+public class GetPosts extends BeforeAll {
 
     @Test(groups = {"smoke"})
     public static void getAllPosts() {

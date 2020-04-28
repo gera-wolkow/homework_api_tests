@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 /**
  * Created by yuriyryndin on 09.04.2020
  */
-public class postPosts extends beforeAll {
+public class PostPosts extends BeforeAll {
     static public int newPostData;
 
     @Test(groups = {"smoke"})

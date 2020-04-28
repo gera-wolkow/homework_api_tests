@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 /**
  * Created by yuriyryndin on 08.04.2020
  */
-public class beforeAll extends Main{
+public class BeforeAll extends Main{
     public static int postId;
     public static String postTitle;
     public static String postBody;
@@ -18,7 +18,7 @@ public class beforeAll extends Main{
     @BeforeSuite
     public void healthCheck (){
         Response result;
-        result = given().contentType("application/json").when().get(https_url).then().extract().response();
+        result = given().contentType("application/json").when().get(URL).then().extract().response();
         Assert.assertEquals(result.getStatusCode(), 200);
     }
 
